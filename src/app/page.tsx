@@ -101,7 +101,7 @@ export default function Page() {
         {RESUME_DATA.work ??
           <Section>
             <h2 className="text-xl font-bold">Work Experience</h2>
-            {RESUME_DATA.work.map((work) => {
+            {RESUME_DATA?.work?.map((work) => {
               return (
                 <Card key={work.company}>
                   <CardHeader>
@@ -150,7 +150,7 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Education</h2>
-          {RESUME_DATA.education.map((education) => {
+          {RESUME_DATA?.education?.map((education) => {
             return (
               <Card key={education.school}>
                 <CardHeader>
@@ -171,7 +171,7 @@ export default function Page() {
 
         <Section>
           <h2 className="text-xl font-bold">Achievements</h2>
-          {RESUME_DATA.achievement.map((a) => {
+          {RESUME_DATA?.achievement?.map((a) => {
             return (
               <Card key={Math.random()}>
                 <CardHeader>
@@ -192,7 +192,7 @@ export default function Page() {
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
-            {RESUME_DATA.projects.map((project) => {
+            {RESUME_DATA?.projects?.map((project) => {
               return (
                 <ProjectCard
                   key={project.title}
