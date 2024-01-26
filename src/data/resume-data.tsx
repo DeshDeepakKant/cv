@@ -125,6 +125,7 @@ export const RESUME_DATA = {
     "Dart",
     "Android SDK",
     "Flutter",
+    "Git/Github",
   ],
   projects: [
     {
@@ -151,8 +152,18 @@ export const RESUME_DATA = {
       description: "A calculator application created using Flutter",
       link: {
         label: "GitHub",
-        href: "https://github.com/DeshDeepakKant/minesweeper",
+        href: "https://github.com/DeshDeepakKant/flutter-calculator",
       },
     },
+    {
+      title: "Habit Tracker",
+      techStack: ["Flutter", "Dart"],
+      description: "A Habit Tracker application created using Flutter",
+      link: {
+        label: "GitHub",
+        href: "https://github.com/DeshDeepakKant/habit-tracker-flutter",
+      },
+    },
+
   ],
 } as const;
