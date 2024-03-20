@@ -21,6 +21,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import { SiLeetcode, SiCodeforces, SiCodechef } from "react-icons/si";
 
 export const RESUME_DATA = {
+  personalWebsiteUrl: "https://github.com/DeshDeepakKant/",
   name: "Desh Deepak Kant",
   initials: "DDK",
   location: "Prayagraj, Uttar Pradesh, India",
@@ -29,7 +30,7 @@ export const RESUME_DATA = {
     "CS Undergrad & Passionate Competitive Programmer",
   summary:
     "Passionate with a strong proficiency in Competitive Programming and a solid grasp of Data Structures and Algorithms. Enthusiastic about problem-solving and actively participates in coding contests and hackathons to continually enhance skills. Eager to apply expertise in application development, particularly in Flutter for mobile platforms, and adept at web development Seeking opportunities to contribute innovative solutions and grow in a dynamic and challenging environment",
-  avatarUrl: "",
+  avatarUrl: "https://media.licdn.com/dms/image/D4D03AQGRYicO-AL9Zw/profile-displayphoto-shrink_800_800/0/1688357125712?e=1716422400&v=beta&t=__0k34A2wlnn2GEOpzyASeWvELupQz9vRPdurJLWWss",
   contact: {
     email: "deshdeepakkant@gmail.com",
     tel: "+91 7607506542",
